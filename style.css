@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+#headerImage{
+  width:1800px;
+  min-width: 100%;
+  float:right;
+  min-height: 250px;
+  max-height: 250px;
+  z-index: -100;
+}
+.imagesNWriting{
+  display: inline-flex;
+}
+.pictures {
+  width: 700px;
+  position: relative;
+  left: 100px;
+}
+.writing{
+  width:600px;
+  position: relative;
+  left: 50px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+#Basketball{
+  height: 300px;
+  width:auto;
+  margin-left: 10px;
+  margin-right:10px;
+  border-radius: 10px;
+}
+#wood{
+  height:300px;
+  width:auto;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right:10px;
+}
+#Library{
+  height:300px;
+  width:auto;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right:10px;
+}
+.subtitle{
+  position: relative;
+  top: 20px;
+  left:50px;
+}
+.textcontent{
+  width: 1400px;
+  height: 500px;
+  position: relative;
+  left: 7%;
+  bottom: 13%;
+  background-color: rgb(56, 54, 54);
+  border-radius: 12px;
+}
+.title{
+  position: relative;
+  top: -175px;
+  left: 100px;
+}
+#logo{
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+
+h2{
+  color:#f1f1f1;
+  font-size:60px;
+  font-weight: 400;
+}
+.websitebg {
+  background-color: rgb(31, 30, 30);
+  border-radius: 12px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  justify-content:center;
+  display: flex;
+}
+.sidebar {
+  background-color:  rgb(30, 56, 31);
+  padding-right: 10px;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar a:hover, .dropdown-main:hover, .dropdown-secondary:hover, .secondary-dropdown-content:hover, .secondarydropdown:hover, .third-dropdown:hover {
+  color: #f1f1f1;
+}
+.link, .dropdown-main {
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(190, 190, 185);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  overflow:hidden;
+}
+.dropdown-content {
+  /* display: none; */
+  background-color:  rgb(7, 75, 7);
+  overflow-y:scroll;
+  max-height:500px;
+  width:320px;
+}
+.dropdown-content::-webkit-scrollbar {
+  display: none;
+}
+.secondary-dropdown-content {
+  background-color:  rgb(11, 99, 11);
+}
+
+.main {
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  color: rgb(158, 158, 156);
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 100px;
+  text-shadow: 2px 2px 10px black;
+}
+
+a {
+  color: rgb(190, 190, 185);
+  font-weight: 300;
+  font-style: normal;
+}
+
+.active {
+  background-color: rgb(3, 48, 3);
+  color: white;
+}
+
+.secondarydropdown, .dropdown-secondary{
+  background-color: rgb(4, 66, 4);
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(190, 190, 185);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.home{
+  background-color: rgb(30, 56, 31);
+  border-radius: 8px;
+  width: 290;
+  height: 250;
+}
+#logo{
+  margin-left: 12%;
+}
+.third-dropdown{
+  background-color:  rgb(14, 129, 14);
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(190, 190, 185);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.secondary-dropdown-content {
+  background-color: rgb(16, 110, 16);
+}
+.third-dropdown-content{
+  background-color:rgb(23, 160, 23); ;
+}
